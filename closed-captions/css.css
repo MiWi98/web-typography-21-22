@@ -23,6 +23,10 @@ Feel free to adjust the defaults to your needs.
     font-size: 1em;
 }
 
+p {
+	margin-top: 4.5em;
+}
+
 #closed-captions .on {
 	opacity: 1;
 }
@@ -35,13 +39,20 @@ Feel free to adjust the defaults to your needs.
 .voice1 {
 	font-style: italic;
 	color: white;
-	font-family: sans-serif;
+	font-family:brenner sans;
 }
 
 .voice1 :first-of-type::before {
 	content: " [ 🔊 Interrogator] ";
 	font-size: 1em;
-   }
+}
+
+.voice2{
+	color: white;
+	font-weight: 800;
+	font-style: normal;
+	font-family: brenner sans;
+}
 
 .voice2 :first-of-type::before {
 	content: " 🙍🏻‍♂️ ";
@@ -52,16 +63,18 @@ Feel free to adjust the defaults to your needs.
 	font-size: 1em;
 }
 
-.voice2{
-	color: white;
+.voice4 {
 	font-weight: 800;
-	font-family: sans-serif;
+	color: white;
+	font-style: normal;
+	font-family: brenner sans;
 }
 
-.soundeffect{
-	content: " 🔔  ";
+.voice4 :first-of-type::before {
+	content: " 🧑🏻 ";
 	font-size: 1em;
 }
+
 
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -72,13 +85,14 @@ The first paragraph, with extended timing for
 You probably want to change the styling.
 ********************************************** */
 .p span{
-	font-family: sans-serif;
+	font-family: brenner sans;
 }
 
 .p0 span {
 	opacity: 0;
 	font-size: 2em;
-	font-weight: 500;
+	font-weight: 200;
+	font-family: brenner sans;
 	transition: 0s;
 }
 .p0.on span:first-of-type {
@@ -145,23 +159,21 @@ You probably want to change the styling.
 .p1 span{
 	opacity: 0;
 	font-size: 2em;
-	font-weight: 500;
+	font-weight: 600;
 	transition: 0s;
 }
 
 .p1.on span:first-of-type {
 	opacity: 1;
-	font-weight: 200;
 }
 .p1.on span:nth-of-type(2) {
 	opacity: 1;
-	font-weight: 400;
 }
 
 .p2 span{
 	opacity: 0;
 	font-size: 1em;
-	font-weight: 500;
+	font-weight: 400;
 }
 
 .p2.on span{
@@ -291,15 +303,15 @@ You probably want to change the styling.
 }
 
 .p5.on  span:nth-child(7) {
-	animation: fade-in 1s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+	animation: fade-in 1.2s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 .p6 span{
 	opacity: 0;
 	font-size: 0.1em;
-	font-family: sans-serif;
+	font-family: brenner sans;
 	font-style: italic;
-	font-weight: 300;
+	font-weight: 400;
 	transition: 0.1s;
 	text-transform: lowercase;
 	color: white;
@@ -368,106 +380,138 @@ You probably want to change the styling.
 	display: inline-block;
 	color: #fff;
 	text-transform: uppercase;
-	animation: wave 1s;
+	animation: jump 1s;
 }
 .p20.on span{
 	display: inline-block;
 	color: #fff;
 	text-transform: uppercase;
-	animation: wave 1s;
+	animation: jump 1s;
 }
 
 .p22.on span{
 	display: inline-block;
 	color: #fff;
 	text-transform: uppercase;
-	animation: wave 1s;
+	animation: jump 1s;
 }
 
 .p23.on span{
 	display: inline-block;
 	color: #fff;
 	text-transform: uppercase;
-	animation: wave 1s;
+	animation: jump 1s;
 }
 
 .p25.on span{
 	display: inline-block;
 	color: #fff;
 	text-transform: uppercase;
-	animation: wave 1s;
+	animation: jump 1s;
 }
 
 .p26.on span{
 	display: inline-block;
 	color: #fff;
 	text-transform: uppercase;
-	animation: wave 1s;
+	animation: jump 1s;
 }
 
 .p28.on span{
 	display: inline-block;
 	color: #fff;
 	text-transform: uppercase;
-	animation: wave 1s;
+	animation: jump 1s;
 }
 
 .p29.on span{
 	display: inline-block;
 	color: #fff;
 	text-transform: uppercase;
-	animation: wave 1s;
+	animation: jump 1s;
 }
 
 .p31.on span{
 	display: inline-block;
 	color: #fff;
 	text-transform: uppercase;
-	animation: wave 1s;
+	animation: jump 1s;
 }
 
 .p33.on span{
 	display: inline-block;
 	color: #fff;
 	text-transform: uppercase;
-	animation: wave 1s;
+	animation: jump 1s;
 }
 
 .p34.on span{
 	display: inline-block;
 	color: #fff;
 	text-transform: uppercase;
-	animation: wave 1s;
+	animation: jump 1s;
 }
 
 .p36.on span{
 	display: inline-block;
 	color: #fff;
 	text-transform: uppercase;
-	animation: wave 1s;
+	animation: jump 1s;
 }
 
 .p37.on span{
 	display: inline-block;
 	color: #fff;
 	text-transform: uppercase;
-	animation: wave 1s;
+	animation: jump 1s;
 }
 
-.p43.on span{
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	padding: 12px 48px;
+.p41 span{
+	transition: 1s;
+	font-size: 0.8em;
+}
+
+.p41.on span {  /* bron: https://codepen.io/avstorm/pen/WNrMqjG  */
 	color: #ffffff;
 	background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
-	background-position: 0;
+	-webkit-background-clip: text;
+	background-clip: text;
+	font-size: 1.3em;
+	-webkit-text-fill-color: transparent;
 	animation: shine 3s infinite linear;
 	animation-fill-mode: forwards;
-	font-weight: 600;
-	font-size: 16px;
-	text-decoration: none;
-	white-space: nowrap;
+}
+
+.p42 span{
+	transition: 2s;
+	font-size: 0.8em;
+}
+
+.p42.on span {  /* bron: https://codepen.io/avstorm/pen/WNrMqjG  */
+	color: #ffffff;
+	background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	font-size: 1.3em;
+	-webkit-text-fill-color: transparent;
+	animation: shine 3s infinite linear;
+	animation-fill-mode: forwards;
+}
+
+.p43 span{
+	transition: 3s;
+	font-size: 0.8em;
+}
+
+.p43.on span {  /* bron: https://codepen.io/avstorm/pen/WNrMqjG  */
+	color: #ffffff;
+	background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	font-size: 1.3em;
+	-webkit-text-fill-color: transparent;
+	animation: shine 3s infinite linear;
+	animation-fill-mode: forwards;
 }
 
 .p44.on span{
@@ -494,6 +538,308 @@ You probably want to change the styling.
 	color: black;
 }
 
+.p48.on span {
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.p49.on span {
+	display: inline-block;
+	color: #fff;
+	font-size: 1.5em;
+	text-transform: lowercase;
+	animation: fall 1s;
+}
+
+.p50.on span {
+	font-size: 1.5em;
+}
+
+.p51.on span {
+	display: inline-block;
+	color: #fff;
+	text-transform: lowercase;
+	animation: fall 1s;
+	font-size: 1.5em;
+}
+
+.p52.on span {
+	font-size: 1.5em;
+}
+
+.p53.on span {
+	display: inline-block;
+	color: #fff;
+	text-transform: lowercase;
+	animation: fall 1s;
+	font-size: 1.5em;
+}
+
+.p54 span{
+	opacity: 0;
+}
+
+.p54.on span {
+	font-size: 1.5em;
+	opacity: 1;
+}
+
+.p54.on span:first-of-type  {
+	display: inline-block;
+	animation: none;
+	opacity: 1;
+}
+
+.p54.on span:nth-child(2)  {
+	display: inline-block;
+	animation: fall 1s;
+	animation-delay: 0.8s;
+	opacity: 1;
+}
+
+.p54.on span:nth-child(3)  {
+	animation: none;
+	display: inline-block;
+	opacity: 1;
+}
+
+.p54.on span:nth-child(4)  {
+	animation: none;
+	display: inline-block;
+	opacity: 1;
+}
+
+.p54.on span:nth-child(5)  {
+	animation: none;
+	display: inline-block;
+	opacity: 1;
+}
+
+.p54.on span:nth-child(6)  {
+	animation: none;
+	display: inline-block;
+	opacity: 1;
+}
+
+.p54.on span:nth-child(7)  {
+	animation: none;
+	display: inline-block;
+	opacity: 1;
+}
+
+.p54.on span:nth-child(8)  {
+	animation: none;
+	display: inline-block;
+	opacity: 1;
+}
+
+.p54.on span:nth-child(9)  {
+	animation: none;
+	display: inline-block;
+	opacity: 1;
+}
+
+.p54.on span:nth-child(10)  {
+	animation: none;
+	display: inline-block;
+	opacity: 1;
+}
+
+.p54.on span:nth-child(11)  {
+	animation: none;
+	display: inline-block;
+	opacity: 1;
+}
+
+.p54.on span:nth-child(12)  {
+	animation: none;
+	display: inline-block;
+	opacity: 1;
+}
+
+.p54.on span:nth-child(13)  {
+	animation: none;
+	display: inline-block;
+	opacity: 1;
+}
+
+.p55.on span {
+	font-size: 1.5em;
+}
+
+.p56.on span {
+	font-size: 1.5em;
+	transition: 1.5s;
+}
+
+.p57.on span {
+	font-size: 1.5em;
+}
+
+.p57.on span {
+	font-size: 1.5em;
+}
+
+.p58.on span {
+	font-size: 1.5em;
+	transition: 0.5s;
+}
+
+.p59.on span {
+	font-size: 1.5em;
+}
+
+.p60 span {
+	font-size: 1em;
+	opacity: 0;
+}
+
+.p60.on span {
+	font-size: 2em;
+	transition: 0.5s;
+	opacity: 1;
+}
+
+.p61.on span {
+	font-size: 1.5em;
+}
+
+.p62.on span {
+	font-size: 1.5em;
+	transition: 0.5s;
+}
+
+.p63.on span {
+	font-size: 1.5em;
+}
+
+.p64 span {
+	font-size: 2.5em;
+	opacity: 0;
+}
+
+.p64.on span {
+	font-size: 1.2em;
+	transition: 1.4s;
+	opacity: 1;
+}
+
+.p65.on span {
+	font-size: 1.5em;
+}
+
+.p66 span {
+	font-size: 3em;
+	opacity: 0;
+}
+
+.p66.on span {
+	font-size: 1.5em;
+	transition: 0.5s;
+	opacity: 1;
+}
+
+.p67.on span {
+	font-size: 2em;
+}
+
+.p68 span {
+	font-size: 1em;
+	opacity: 0;
+}
+
+.p68.on span {
+	font-size: 2em;
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.p69.on span {
+	font-size: 2em;
+}
+
+.p70 span {
+	font-size: 2em;
+	opacity: 0;
+}
+
+.p70.on span {
+	font-size: 1em;
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.p71.on span {
+	font-size: 1.5em;
+}
+
+.p72 span {
+	font-size: 1em;
+	opacity: 0;
+}
+
+.p72.on span {
+	font-size: 2em;
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.p73.on span {
+	font-size: 1.5em;
+}
+
+.p74 span {
+	font-size: 3em;
+	opacity: 0;
+}
+
+.p74.on span {
+	opacity: 1;
+	font-size: 1em;
+	transition: 1.2s;
+}
+
+.p75.on span {
+	font-size: 1.5em;
+}
+
+.p76 span {
+	font-size: 1em;
+	opacity: 0;
+}
+
+.p76.on span {
+	opacity: 1;
+	transition: 0.5s;
+	font-size: 2.5em;
+}
+
+.p77.on span {
+	font-size: 1.5em;
+}
+
+.p78 span {
+	font-size: 2.5em;
+	opacity: 0;
+}
+
+.p78.on span {
+	font-size: 1em;
+	opacity: 1;
+	transition: 1s;}
+
+.p79 span {
+	font-size: 2.5em;
+	opacity: 0;
+}
+
+.p79.on span {
+	opacity: 1;
+	background-color: red;
+	text-transform: uppercase;
+	transition: 0.5s;
+	font-size: 1.5em;
+}
 
 /* **********************************************
 Sounds.
@@ -558,17 +904,18 @@ Sounds.
 	animation-fill-mode: forwards;
 }
 
-.sound7 {
+.sound7{
 	animation: sound7 2s ease 0s infinite normal forwards;
 }
 
-.sound8{
+.sound8 {
 	background: linear-gradient(-90deg, #000000, maroon, maroon, black, black);
 	background-size: 400% 400%;
 	transition: 0s;
 	animation: gradient 3s ease;
 	animation-fill-mode: forwards;
 }
+
 .sound8 iframe{
 	animation: sound7 2s ease 0s infinite normal forwards;
 }
@@ -662,18 +1009,14 @@ Sounds.
 }
 
 .sound27 {
-	background-color: rgb(234, 245, 255) ;
+	background-color: rgb(162, 179, 162) ;
 	transition: 5s;
-}
-
-.sound28 iframe {
-	animation: exit 3s ease 0s 1 normal forwards;
 }
 
 
 iframe {
 	transition: 1s;
-	/* clip-path: inset(4em); */
+	/* clip-path: inset(4em); hiermee kan ik het frame aanpassen van de video.*/
 }
 
 /* ******************* Keyframes ***********************  */
@@ -777,11 +1120,11 @@ iframe {
 	}
 
 	10%{
-		transform: rotate(8deg);
+		transform: rotate(4deg);
 	}
 
 	40%{
-		transform: rotate(-10deg);
+		transform: rotate(-4deg);
 	}
 
 	50% {
@@ -789,15 +1132,15 @@ iframe {
 	}
 
 	70%{
-		transform: rotate(10deg);
+		transform: rotate(4deg);
 	}
 
 	80%{
-		transform: rotate(-8deg);
+		transform: rotate(-4deg);
 	}
 
 	90%{
-		transform: rotate(8deg);
+		transform: rotate(4deg);
 	}
 
 	100% {
@@ -1034,20 +1377,17 @@ iframe {
 		}
 	}
 
-	@keyframes shine{
-		0%{
-			background-position: 0;
+	@keyframes shine {
+		0% {
+		  background-position: 0;
 		}
-		
-	  60%{
-		  	background-position: 180px;
+		60% {
+		  background-position: 180px;
 		}
-	
-	  100%{
-		 	 background-position: 180px;
-	}
-		
-	}
+		100% {
+		  background-position: 180px;
+		}
+	  }
 	
 	@keyframes fade-in {
 		100% {
@@ -1056,7 +1396,7 @@ iframe {
 		}
 	  }
 
-	  @keyframes wave {
+	  @keyframes jump {
 		0%,40%,100% {
 		  transform: translateY(0)
 		}
@@ -1104,7 +1444,7 @@ iframe {
 
 	@keyframes static {
 		0%, 99% {
-			background-image: url("links/staticGif.gif"); /* bron afbeelding: https://tenor.com/view/confetti-gif-17933464 */
+			background-image: url("links/staticGif.gif"); /* bron afbeelding: https://giphy.com/explore/static-noise */
 		}
 		100% {
 			background-image: none;
@@ -1113,7 +1453,7 @@ iframe {
 
 	@keyframes static2 {
 		0%, 99% {
-			background-image: url("links/static2.gif"); /* bron afbeelding: https://tenor.com/view/confetti-gif-17933464 */
+			background-image: url("links/static2.gif"); /* bron afbeelding: https://webwork360.com/subbreddit-to-share-abstract-art-kv.html */
 		}
 		100% {
 			background-image: none;
@@ -1122,23 +1462,18 @@ iframe {
 
 	@keyframes trip {
 		0%, 99% {
-			background-image: url("links/20873-Trippy-Gif.gif"); /* bron afbeelding: https://tenor.com/view/confetti-gif-17933464 */
+			background-image: url("links/20873-Trippy-Gif.gif"); /* bron afbeelding: https://aqua-regia009.tumblr.com/post/155265309310/enter-the-void-gaspar-no%C3%A9-2009 */
 		}
 		100% {
 			background-image: none;
 		}
 	}
 
-	@keyframes exit {
-		0% {
-			opacity: 1;
-			transform: rotateX(0);
-			transform-origin: bottom;
+	@keyframes fall {
+		0%,40%,100% {
+		  transform: translateY(0)
 		}
-	
-		100% {
-			opacity: 0;
-			transform: rotateX(100deg);
-			transform-origin: bottom;
+		20% {
+		  transform: translateY(20px)
 		}
-	}
+	  }

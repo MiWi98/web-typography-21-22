@@ -15,6 +15,19 @@ En dat gaan jullie doen.
 - Je kan je typografische keuzes onderbouwen.
 - Je hebt de exclusive design principles gebruikt.
 
+__Exclusive Design__
+- Study situation
+<br>In order to become specialist designers for all kinds of people with all kinds of disabilities we have to study different, individual situations.
+
+- Ignore conventions
+<br>The current conventions are designed by, and thus for, designers. Not all of these conventions work for non-designers. If we want to include non-designers, and especially people with disabilities, we should reconsider these conventions, after we studied their situations.
+
+- Prioritise identity
+<br>Including excluded people into our design process, by seeing them as co-designers rather than study objects, can help in coming up with new, and relevant, conventions.
+
+- Add nonsense
+<br>Designing for people with disabilities is in large part uncharted territory. Nonsense can be a useful tool to investigate the unkown. And it’s fun.
+
 ## Oplevering
 
 Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
@@ -81,3 +94,63 @@ Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vr
 Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
 
 Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
+
+# Verantwoording
+## __Font__
+- Ik heb een keuze gemaakt voor het Brenner font en dan de Sans variant. Ik heb hiervoor gekozen omdat dit type van het font naar mijn idee goed leesbaar is en duidelijk opvalt bij sommige achtergronden die ik toe pas tijdens het afspelen van de video. Het is belangrijk dat de ondertiteling goed leesbaar is voor de doelgroep aangezien zij de video niet zullen kunnen horen. 👂
+- Het Brenner font heeft veel diversiteit in font-style, font-weigh en meer. Hierdoor kon ik naar mijn eigen smaak ook stylen in de css en toepassen bij de ondertiteling van de video. 
+
+
+## __Effecten__
+1. Ik heb diverse animaties/effecten toegepast tijden het afspelen van de video. zodra de video begint zie je dat de video begint mee te trillen met het geluid om de achtergrond wat klinkt als een harde bas geluid. 
+2. Zodra je een eerste soort piep geluid hoort zie je dat de video groter wordt, dus mee beweegt met het piep geluid.
+3. vervolgens hoor je een politie soort piep geluid. hierbij heb ik ene gradient laten meebewegen van de rechterkant van het scherm naar de linker kant.
+4. 3de piep geluid vond ik klinken als of je in een decontaminatie gang door loopt en heb er dan een soort rook effect op de achtergrond geplaatst. 
+5. Beweegt de video mee van de schrik van de hoofdpersoon omdat hij ineens wordt uitgescholden door iemand die langsloopt. ik vond dat het schrik effect van de hoofdpersoon erg op de achtergrond was waardoor hij mij de eerste keer niet opviel dat hij schrok. Ik wilde het om die reden wat meer naar voren laten komen. 
+6. 4de piep is dezelde piep als punt 3. 
+7. Vanaf 00:28 begint de video mee rond te schudden op basis van hoe hard de piep op de achtergrond te horen is. die wordt exponentieel een ergere beweging. 
+8. 5de  piep is dezelde piep als punt 3. 
+9. Wanneer het hoofdpersonage alle vragen heeft beantwoord wat rond 1:15 is. Komt er confetti te voorschijn op de achtergrond want hij heeft het succesvol gehaald!
+10. Wanneer de volgende scene is begint het scherm met het pulseren. Dit heb ik gedaan omdat ik zelf een nerveus gevoel kreeg van de scene aangezien hde snelheid van zijn antwoorden niet altijd even snel waren en daarom naar mijn idee zich onder druk gezet voelde ik heb dit uitgebeeld door het scherm dus te laten pulseren. dit wordt ook exponentieel meer pulserend. 
+11. Vanaf 1:43 detecten ze dat er iets mis is met hem in het beeld en gaat het niet helemaal goed en beginnen ze hun vraagtekens te krijgen bij zijn antwoorden. Ik heb dit uitgebeeld door een static effect op de achtergrond toe te passen. static effect kwam vroeger op de tv voor wanneer er iets mis mas met de zender en je vroeg je dan vaak af 'Wat is er mis?'
+12. Vanaf 1:43 heb ik het volgende static effect toegepast. om dezelfde reden en om het enge geluid wat je dan harde hoort meer naar voren te laten komen met een ander soort static effect. 
+13. vanaf 2:02 heb ik een raar 'trippy' effect toegepast waarmee ik wil aanduiden dat er iets niet goed is met hem omdat hij anders begint na te denken dan 'normaal' is 'toegestaan'. 
+14. Als laaste effect verander ik de achtergrond kleur naar dezelfde kleur van de kamer op video als een soort aanduiding van dit is het einde van de video. 
+
+
+## __Exclusive Design__
+__Ik heb diverse pricipes van exclusive design toegepast:__ 
+- Study situation
+<br>Ik heb deze helaas niet echt kunnen toepassen aangezien we niet konden testen met de doelgroep, tevens heb ik ook geen connecties met de doelgroep. 
+<br> Wel heb ik mij proberen in te leven in de doelgroep door de video ook af te spelen zonder geluid aan het begin en wanneer ik bezig was met het maken van de effecten etc. in de video. 
+
+- Ignore conventions
+<br>Tijdens het maken van de animatie/effecten en meer heb ik er rekening mee gehouden dat de doelgroep dit ook zou moeten door de video ook af te spelen met geluid uit. 
+
+- Prioritise identity
+<br>Ik heb er voor gezorgt dat de effecten die ik gebruik tijdens het afspelen van de video de emoties en geluideffecten in de video worden afgebeeld oormiddel van beeld. dit heb ik gedaan door te focussen op hoe het geluid wil laten overbrengen in het beeld van de video, doormiddel van de effecten en ondertiteling effecten. 
+
+- Add nonsense
+<br>Ik heb tijdens het afspelen goed geluisterd naar de tonen, geluiden en meer in de video. een van de grappige dingen die ik heb toegevoegt is hoe de tekst beweest en het effect van confetti wanneer hij de eerste keer alle vragen juist beantwoord. 🥳
+
+
+## __Ondertiteling__
+- Tijdens het stylen van de ondertiteling heb ik  gekeken naar hoe ik het gevoel van de video ook in de tekst naar voren kan laten komen. <br> - Dit heb ik bijvoorbeeld gedaan door de tekst een transition te geven om groter of kleiner te maken of een vervaagt effect over de tekst te laten gaan wat helder wordt wanneer het gezegd wordt.
+Vervaag effect: heb ik gedaan omdat het voelt alsof de persoon veel zegt achter elkaar maar het wel op een bepaalde snelheid doet. 
+<br> - Het lastigste text effect om toe te passen was de shine bij het gedeelte van wanneer 'within cells interlinkt' drie keer wordt herhaald achter elkaar. doordat hij dit drie keer moest herhalen gaf mij dit een soort gemaakt polished gevoel. Hier zal ik in mijn proces dieper op in gaan. 
+<br>- Ik heb gespeeld met diverse text effecten omdat ik daar zelf ook meer mee wilde spelen om te kijken wat er allemaal mogelijk is en wat mij zelf allemaal lukt.
+
+## __Proces__
+- 
+
+
+- Shine effect: Ik had het idee om dit op die manier af te beelden. Ik vond het effect op een CodePen en probeerde het toe te passen.
+<br> De eerste keer lukte mij dit niet. Ik wist niet wat er mis was. na het te laten liggen en een dag later terug te kijken. Zag ik iets wat ik nog niet geprobeerd had en dat was er stond wel. 
+<br>-webkit-background-clip: text; maar nog geen --> background-clip: text;
+Ik zette dit er vervolgens bij en dit werkte !! 😁
+
+
+Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
+- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
+- Je kan je typografische keuzes onderbouwen.
+- Je hebt de exclusive design principles gebruikt.
