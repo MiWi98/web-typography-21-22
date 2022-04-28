@@ -135,22 +135,28 @@ __Ik heb diverse pricipes van exclusive design toegepast:__
 
 
 ## __Ondertiteling__
-- Tijdens het stylen van de ondertiteling heb ik  gekeken naar hoe ik het gevoel van de video ook in de tekst naar voren kan laten komen. <br> - Dit heb ik bijvoorbeeld gedaan door de tekst een transition te geven om groter of kleiner te maken of een vervaagt effect over de tekst te laten gaan wat helder wordt wanneer het gezegd wordt.
-Vervaag effect: heb ik gedaan omdat het voelt alsof de persoon veel zegt achter elkaar maar het wel op een bepaalde snelheid doet. 
-<br> - Het lastigste text effect om toe te passen was de shine bij het gedeelte van wanneer 'within cells interlinkt' drie keer wordt herhaald achter elkaar. doordat hij dit drie keer moest herhalen gaf mij dit een soort gemaakt polished gevoel. Hier zal ik in mijn proces dieper op in gaan. 
-<br>- Ik heb gespeeld met diverse text effecten omdat ik daar zelf ook meer mee wilde spelen om te kijken wat er allemaal mogelijk is en wat mij zelf allemaal lukt.
+- Tijdens het stylen van de ondertiteling heb ik  gekeken naar hoe ik het gevoel van de video ook in de tekst naar voren kan laten komen. <br> 
+- Dit heb ik bijvoorbeeld gedaan door de tekst een transition te geven en de em aan te passen dit gaf het effect als de tekst groter of kleiner werd. 
+- Een vervaagt effect over de tekst te laten gaan wat helder wordt wanneer het gezegd wordt.
+Vervaag effect: heb ik gedaan omdat het voelt alsof de persoon veel zegt achter elkaar maar het wel op een bepaalde snelheid doet. (langdradig gevoel ook).
+<br> 
+- Het lastigste text effect om toe te passen was de shine bij het gedeelte van wanneer 'within cells interlinkt' drie keer wordt herhaald achter elkaar. doordat hij dit drie keer moest herhalen gaf mij dit een soort gemaakt polished gevoel. Hier zal ik in mijn proces dieper op in gaan. 
+<br> 
+- Ik heb gespeeld met diverse text effecten omdat ik daar zelf ook meer mee wilde spelen om te kijken wat er allemaal mogelijk is en wat mij zelf allemaal lukt.
 
 ## __Proces__
-- 
-
-
+- Voordat ik begon met het coderen heb ik eerst de video bekeken met en zonder geluid. dit heb ik gedaan om de doelgroep beter kunnen begrijpen zonder het geluid. Vervolgens heb ik genoteerd wat ik hoorde. Ik heb vervolgens er over nagedacht hoe ik dit zou willen tonen op het scherm en welke gevoelens het bij mij naar boven brengt. 
+<br><br>
+- Tijdens mijn proces heb ik ook een website gebruikt om animatie (keyframes) in te maken. deze website staat ook vermeld in de code maar deze website heeft mij onder andere geholpen om te zien wat er allemaal mogelijk is. Het toepassen in mijn eigen code was af en toe nog wel tricky maar het lukte mij wel op het om te zetten naar mijn eigen code en werkend te krijgen en daar ben ik best wel trots op. 
+<br>Website: https://webcode.tools/generators/css/keyframe-animation
+<br><br>
 - Shine effect: Ik had het idee om dit op die manier af te beelden. Ik vond het effect op een CodePen en probeerde het toe te passen.
 <br> De eerste keer lukte mij dit niet. Ik wist niet wat er mis was. na het te laten liggen en een dag later terug te kijken. Zag ik iets wat ik nog niet geprobeerd had en dat was er stond wel. 
-<br>-webkit-background-clip: text; maar nog geen --> background-clip: text;
+<br> -webkit-background-clip: text; maar nog geen --> background-clip: text;
 Ik zette dit er vervolgens bij en dit werkte !! 😁
 
+## Reflectie
+Als ik nu mijn eindproduct zie ben ik hier trots op en ben ik achter diverse keyframe animatie gekomen wat mogelijk is en wat mogelijk is door een opacity of transition toe te passen. Ik vond dit een leuke opdracht en kon er veel mee spelen tijdens het proces ook waren er momenten dat ik er niet uitkwam hierbij vroeg ik de docent dan om hulp en dan liet mij handige trucjes zien. deze heb ik dan ook vaker toegepast zoals, animation fill mode: forwards; en de background naar 0% of none te zetten  in de keyframes om het te stoppen. 
+<br>
+__Ik heb veel geleerd van deze opdracht en mijzelf verbaast met wat ik kan! 😋__
 
-Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt de exclusive design principles gebruikt.
